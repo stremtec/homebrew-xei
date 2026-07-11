@@ -1,26 +1,26 @@
 class Xei < Formula
   desc "xei (晴) — a modern Vim-like terminal editor in Rust"
   homepage "https://github.com/stremtec/xei"
-  version "3.0.1"
+  version "3.0.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/stremtec/xei/releases/download/v3.0.1/xei-aarch64-apple-darwin.gz"
-      sha256 "22916c7fcff2514dd7967768d63a725a13e054be27231d39acfd17321700c91e"
+      url "https://github.com/stremtec/xei/releases/download/v3.0.2/xei-aarch64-apple-darwin.gz"
+      sha256 "658f810439a2423ac4cc4e484955f25e7e1c92b0302826bfb394c8f5c03206d7"
     else
-      url "https://github.com/stremtec/xei/releases/download/v3.0.1/xei-x86_64-apple-darwin.gz"
-      sha256 "62f17e1f910fea37af6f636f6e9afbe7f58e71b9ccc4f074200b8193fdda1d52"
+      url "https://github.com/stremtec/xei/releases/download/v3.0.2/xei-x86_64-apple-darwin.gz"
+      sha256 "0fef8d23601fc071790ec71daad0078f0d32eeac5200a03e1dbacc943672b145"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/stremtec/xei/releases/download/v3.0.1/xei-aarch64-unknown-linux-gnu.gz"
-      sha256 "3d483269b47225db29282c0276fa92d2223196f60b96fd2d0ec6727dfefefa18"
+      url "https://github.com/stremtec/xei/releases/download/v3.0.2/xei-aarch64-unknown-linux-gnu.gz"
+      sha256 "993dc1bcd3363049d05135f3eb6c90cf4372e27ede40766a1b343f77f304f8a6"
     else
-      url "https://github.com/stremtec/xei/releases/download/v3.0.1/xei-x86_64-unknown-linux-gnu.gz"
-      sha256 "5957d6acbbfdc99641392b848bce6799e4b5e5d4a9bc454e5820417c55a37933"
+      url "https://github.com/stremtec/xei/releases/download/v3.0.2/xei-x86_64-unknown-linux-gnu.gz"
+      sha256 "2fcabe6bbd757ebd87371f2d7c5cd8667e4b114b035fd0f694589ffd98e9792a"
     end
   end
 
